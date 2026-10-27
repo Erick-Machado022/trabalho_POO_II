@@ -214,13 +214,7 @@ public class Main {
 
         return quantidade;
     }
-
-    private void aposVitoria(Personagem jogador) {
-        System.out.println("\nVitoria! Voce recebeu 2 pontos de atributo.");
-        System.out.println("A recompensa da batalha foi adicionada pelo Jogo.");
-        distribuirPontos(jogador);
-    }
-
+    
     private void distribuirPontos(Personagem jogador) {
         while (jogador.getPontoDeAtributo() > 0) {
             System.out.println("\nPontos disponiveis: " + jogador.getPontoDeAtributo());
