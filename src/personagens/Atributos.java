@@ -42,14 +42,14 @@
             }
 
             int forca = this.forca;
-            int def = this.defesa;
+            int defesa = this.defesa;
             int magia = this.magia;
 
             if (atributo == Atributo.FORCA){
                 forca +=valor;
             }
             if (atributo == Atributo.DEFESA){
-                def +=valor;
+                defesa +=valor;
             }
             if (atributo == Atributo.MAGIA){
                 magia +=valor;
