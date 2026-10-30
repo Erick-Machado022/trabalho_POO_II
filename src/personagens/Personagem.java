@@ -21,15 +21,13 @@ public abstract class Personagem implements Combatente {
 
     private Inventario inventario;
 
-    // Equipamento que ocupa o slot da mão.
-    // Como é do tipo Equipavel, pode representar
-    // diferentes classes que implementam essa interface.
+  
     private Equipavel equipamentoMao;
 
     private Equipavel equipamentoCorpo;
     private Equipavel equipamentoCabeca;
 
-    // Guarda o bônus de defesa e a duração do buff.
+   
     private int bonusDefesaTemporario;
     private int turnosDeBuff;
 
@@ -80,7 +78,7 @@ public abstract class Personagem implements Combatente {
         return atributos;
     }
 
-    // Retorna a defesa base somada ao bônus temporário.
+   
     @Override
     public int getDefesa() {
         int defesaBase = atributos.defesa();
@@ -132,13 +130,12 @@ public abstract class Personagem implements Combatente {
         return atributos.forca();
     }
 
-    // Retorna a força total.
-    // Futuramente pode considerar outros bônus.
+    
     public int getForcaTotal() {
         return getForcaAtaque();
     }
 
-    // Retorna a magia base do personagem.
+   
     public int getMagiaTotal() {
         return atributos.magia();
     }
@@ -149,7 +146,7 @@ public abstract class Personagem implements Combatente {
             return 0;
         }
 
-        // Polimorfismo: o resultado depende do equipamento.
+       
         return equipamentoMao.bonusDeDano();
     }
 
@@ -243,11 +240,7 @@ public abstract class Personagem implements Combatente {
     // EQUIPAMENTOS
     // ==========================================
 
-    public void equipar(Equipavel equipamento) { // vamos explicar o que acontece aqui, temos aqui um método que recebe
-                                                 // um equipamento, e o slot do equipamento é verificado, se já houver
-                                                 // um equipamento no slot, ele é adicionado ao inventário, caso não
-                                                 // haja espaço no inventário, o equipamento não é equipado. Se houver
-                                                 // espaço, o equipamento é equipado no slot correspondente.
+    public void equipar(Equipavel equipamento) { 
 
         if (equipamento == null) {
             throw new IllegalArgumentException("Equipamentos não pode ser nulo.");

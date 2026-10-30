@@ -16,7 +16,7 @@ public abstract class Monstro extends Personagem {
     public abstract Habilidade getAtaqueEspecial();
 
     public AcaoDoMonstro decidirAcao(Personagem jogador, int turno){
-        return estrategia.decidir(this, jogador, turno); //o que é esse this? ele representa o monstro que está tomando a decisão, e é passado como parâmetro para a estratégia do monstro, para que ela possa tomar decisões baseadas nas características do monstro.
+        return estrategia.decidir(this, jogador, turno); 
     }
 
     
