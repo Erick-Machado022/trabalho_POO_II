@@ -1,7 +1,7 @@
 ﻿Trabalho II — Programação Orientada a Objetos
 Projeto desenvolvido em Java para a disciplina de Programação Orientada a Objetos. O trabalho consiste em um jogo de RPG com combate por turnos, no qual o jogador escolhe um personagem e enfrenta uma sequência de monstros.
 Apresentação em vídeo
-Assista à apresentação do projeto no YouTube: https://youtu.be/4u6F4Dn-cBg
+Assista à apresentação do projeto no YouTube: https://youtu.be/4u6F4Dn-cBg  
 Sobre o jogo
 O jogador pode escolher entre três classes:
 - Guerreiro: personagem com maior resistência física.
