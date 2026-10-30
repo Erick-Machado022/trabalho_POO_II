@@ -2,13 +2,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Inventario {
-    private List<Item> itens; // para que serve o List<Item> itens? para armazenar os itens do inventário, que
-                              // são do tipo Item, que é a classe pai de todos os itens do jogo.
+    private List<Item> itens; 
     private final int capacidadeMaxima;
 
     public List<Item> getItens() {
-        return List.copyOf(itens); // retorna uma cópia da lista de itens, para que não seja possível modificar a
-                                   // lista original de fora da classe Inventario.
+        return List.copyOf(itens); 
     }
 
     public Inventario(int capacidadeMaxima) {

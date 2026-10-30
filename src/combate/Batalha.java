@@ -38,20 +38,7 @@ public class Batalha {
     public boolean isEncerrada() {
         return encerrada;
     }
-    /*
-     * getJogador() e getMonstro() permitem consultar quem está lutando.
-     * 
-     * 
-     * 
-     * getTurno() permite que a estratégia saiba em qual turno está.
-     * 
-     * 
-     * 
-     * isEncerrada() permite verificar se a batalha terminou.
-     * 
-     */
-
-    // METODOS
+    
 
     private void validarAcaoMonstro(AcaoDoMonstro acao) {
         if (acao == null) {

@@ -34,7 +34,7 @@ public class Buff implements Habilidade {
             return conjurador.getNome() + " não possui mana suficiente para usar " + nome + "!";
         }
 
-        //Consumo de mana
+        
         conjurador.gastarMana(custoMana);
 
         conjurador.aplicarBuff(bonusDefesa, duracao);

@@ -24,14 +24,14 @@ public class MainRoteirizado {
 
         System.out.println("\n=== TESTE: CURA COM GUERREIRO ===");
 
-        Guerreiro guerreiro = new Guerreiro(
-            "Conan", new Inventario(10)
+        Arqueiro arqueiro = new Arqueiro(
+            "Legolas", new Inventario(10)
         );
 
         Cura cura = new Cura("Cura", 6, 20);
 
         try {
-            cura.executar(guerreiro, guerreiro);
+            cura.executar(arqueiro, arqueiro);
 
             System.out.println(
                 "ERRO: a Cura deveria ter sido rejeitada."
@@ -76,8 +76,8 @@ public class MainRoteirizado {
             "\n=== TESTE: ATAQUE ESPECIAL NO TURNO 1 ==="
         );
 
-        Guerreiro jogador = new Guerreiro(
-            "Conan", new Inventario(10)
+        Arqueiro jogador = new Arqueiro(
+            "Legolas", new Inventario(10)
         );
 
         Goblin goblin = new Goblin("Teste Goblin", new Inventario(10) , new Random());
@@ -108,8 +108,8 @@ public class MainRoteirizado {
 
         System.out.println("\n=== BATALHA COMPLETA ===");
 
-        Guerreiro jogador = new Guerreiro(
-            "Conan", new Inventario(20)
+        Arqueiro jogador = new Arqueiro(
+            "Legolas", new Inventario(20)
         );
 
         Goblin goblin = new Goblin(

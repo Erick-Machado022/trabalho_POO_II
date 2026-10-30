@@ -26,12 +26,4 @@ public abstract class Item { // classe é abstrata pois ela vai servir como base
     }
 
 }
-/*
- * Por que dessa forma?
- * - private String nome: protege o estado interno do item.
- * - Item(String nome): permite informar o nome ao criar um item concreto.
- * - getNome(): permite consultar o nome sem liberar alteração direta do
- * atributo.
- * - abstract class: indica que Item é uma base para outros tipos de item, e não
- * algo que precisamos instanciar diretamente.
- */
+

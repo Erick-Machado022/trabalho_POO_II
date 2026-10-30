@@ -35,7 +35,7 @@ public class AtaqueFisico implements Habilidade {
         //consumo de mana
         conjurador.gastarMana(custoMana);
 
-        //calcu
+        
         int danoBruto = (int) ((conjurador.getForcaTotal() + conjurador.getBonusDeDano()) * multiplicador);
         int defesaAlvo = alvo.getDefesa();
 

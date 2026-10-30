@@ -15,4 +15,4 @@ public interface  Equipavel {
 }
 
 
-/*numa interface, métodos abstratos não precisam de corpo. Para um método com implementação padrão, usamos a palavra-chave default. */
+

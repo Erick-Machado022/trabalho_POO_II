@@ -14,10 +14,7 @@ public class Arma extends Item implements Equipavel {
         return this;
     }
 
-    // porque usamos o Override? Porque estamos sobrescrevendo o método da interface
-    // Equipavel, que é um contrato que a classe Arma está assumindo. Isso significa
-    // que a classe Arma deve fornecer uma implementação para o método getSlot()
-    // definido na interface Equipavel.
+    
 
     @Override
     public Slot getSlot() {

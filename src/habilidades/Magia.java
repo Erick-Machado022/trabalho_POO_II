@@ -34,7 +34,7 @@ public class Magia implements Habilidade {
             return conjurador.getNome() + " não possui mana suficiente para usar " + nome + "!";
         }
 
-        //Consumo de mana
+        
         conjurador.gastarMana(custoMana);
 
         int danoBruto = conjurador.getMagiaTotal() + poder;
